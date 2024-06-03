@@ -1,7 +1,6 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 SRC_URI:append := "  \
 	file://system.conf \
-	file:///work/dmoseley/local/rauc-example-ca/ca.cert.pem \
 	file://rauc-grow-data-partition.service \
 "
 
